@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.video.viptv" name=".VipTV" version="1.0.0" provider-name="gh0st4k0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+      </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">.VipTV</summary>
+    <description lang="en">Live TV Channels, Updated Daily.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.velocitytv" name=".VelocityTV" version="3.0.0" provider-name="gh0st4k0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+      </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">.VelocityTV</summary>
+    <description lang="en">Live TV Channels, Updated Daily.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
+<addon id="repository.iptvrepo" name="ipTVrepo" version="1.0.0" provider-name="gh0st4k0">
+ 	<extension point="xbmc.addon.repository" name="ipTV repo">
+ 		<info compressed="false">https://raw.githubusercontent.com/gh0st4k0/iptvrepo/master/addons.xml</info>
+ 		<checksum>https://raw.githubusercontent.com/gh0st4k0/iptvrepo/master/addons.xml.md5</checksum>
+ 		<datadir zip="true">https://raw.githubusercontent.com/gh0st4k0/iptvrepo/master/addons/</datadir>
+	</extension>
+ 	<extension point="xbmc.addon.metadata">
+ 		<summary>Install add-ons from the ipTVrepo Repository</summary>
+ 		<description>Download and install add-ons from the ipTVrepo Repository</description>
+ 		<platform>all</platform>
+ 	</extension>
+</addon>
+</addons>
